@@ -11,9 +11,9 @@ function openWindow() {
 } */
 $(document).ready(function () {
   $("#closewindow > button").click(function () {
-    $("image1 > img").attr("src", "http://nachalo4ka.ru/wp-content/uploads/2014/08/0_6c946_9b7e2cfd_XXXL.png")
+    $("#image1").attr("src", "http://nachalo4ka.ru/wp-content/uploads/2014/08/0_6c946_9b7e2cfd_XXXL.png")
   });
-  $("#closewindow > button").click(function () {
-    $("image1 > img").attr("src", "http://weknowyourdreams.com/images/window/window-04.jpg")
+  $("#openwindow > button").click(function () {
+    $("#image2").attr("src", "http://weknowyourdreams.com/images/window/window-04.jpg")
   });
 });
